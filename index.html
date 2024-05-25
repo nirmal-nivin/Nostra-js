@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nostra</title>
+    <!--LINK CSS STYLESHEET-->
+    <link rel="stylesheet" href="style.css" />
+    <!--LINK GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--CDN LINK FONT AWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--OFFER BAR-->
+    <div class="offer-bar">
+        <p>Sign Up and <b>GET 20% OFF</b> for your first order 
+            <i id="offer-close" style="margin-left: 10%; cursor: pointer;" class="fa-solid fa-xmark" style="color: #000000;"></i>
+        </p>
+    </div>
+
+    <!--NAVBAR-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="home">Home</a></p>
+            <p class="navbar-link"><a href="#new-arrival">New Arrival</a></p>
+            <p class="navbar-link"><a href="#best-seller">Best Seller</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact Us</a></p>
+        </div>
+
+        <div class="navbar-menu">
+            <i id="side-navbar-activate" class="fa-solid fa-bars" style="color: #000000;"></i>
+        </div>
+    </nav>
+
+    <!--SLIDE NAVBAR when js section is created-->
+    <div class="side-navbar">
+        <p style="text-align: right;">
+            <i id="side-navbar-close" class="fa-solid fa-xmark" style="color: #000000;"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="./index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="#new-arrival">New Arrival</a></p>
+            <p class="side-navbar-link"><a href="#best-seller">Most Wanted</a></p>
+            <p class="side-navbar-link"><a href="./collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="./contact.html">Contact Us</a></p>
+        </div>
+    </div>
+
+    <!--IMAGE SLIDER-->
+    <div class="container">
+        <div class="slider">
+            <div class="slider-left-arrow">
+                <i id="slider-left-activate" class="fa-solid fa-angle-left" style="color: #FFFFFF;"></i>
+            </div>
+            <div class="slider-content">
+                <h1>Level up your style with our</h1>
+                <h3>Summer Collections</h3>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="slider-image-section">
+                <img class="slider-image" src="./Img/slide1.jpg" width="100%" alt="slider-image">
+                <img class="slider-image" src="./Img/slide1.jpg" alt="slider-image">
+                <img class="slider-image" src="./Img/slide1.jpg" alt="slider-image">
+            </div>
+            <div class="slider-right-arrow">
+                <i id="slider-right" class="fa-solid fa-angle-right" style="color: #FFFFFF;"></i>
+            </div>
+        </div>
+
+    <!--BRANDS-->
+        <h2 style="margin-top: 5vw;">Brands</h2>
+        <div class="brands">
+            <div class="brands-list">
+                <img class="brands-icon" src="./Brand/adidas.png" alt="Brand-image">
+                <p>Addidas</p>
+            </div>
+            <div class="brands-list">
+                <img class="brands-icon" src="./Brand/behance.png" alt="Brand-image">
+                <p>Behance</p>
+            </div>
+            <div class="brands-list">
+                <img class="brands-icon" src="./Brand/blackheart.png" alt="Brand-image">
+                <p>Blackheart</p>
+            </div>
+            <div class="brands-list">
+                <img class="brands-icon" src="./Brand/leaves.png" alt="Brand-image">
+                <p>Leaves</p>
+            </div>
+            <div class="brands-list">
+                <img class="brands-icon" src="./Brand/nike.png" alt="Brand-image">
+                <p>Nike</p>
+            </div>
+            <div class="brands-list">
+                <img class="brands-icon" src="./Brand/twitch.png" alt="Brand-image">
+                <p>Twitch</p>
+            </div>
+            <div class="brands-list">
+                <img class="brands-icon" src="./Brand/leaves.png" alt="Brand-image">
+                <p>Puma</p>
+            </div>
+        </div>
+
+    <!--SERVICE SECTION-->
+        <div class="initial-scroll">
+            <div class="service">
+                <div class="service-container-1">
+                    <div>
+                        <h2>We provide Best</h2>
+                        <h2>Customer Experiences</h2>
+                    </div>
+                    <div>
+                        <p>|| We ensure that our customer have the best shopping experience</p>
+                    </div>
+                </div>
+
+                <div class="service-container-2">
+                    <div>
+                        <i style="font-size: 3vw; margin-bottom: 10px;" class="fa-solid fa-circle-check" style="color: #000000;"></i>
+                        <h4>Original Product</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, reiciendis?
+                            amet consectetur adipisicing elit. Fuga, reiciendis
+                        </p>
+                    </div>
+                    <div>
+                        <i style="font-size: 3vw; margin-bottom: 10px;" class="fa-solid fa-face-smile" style="color: #000000;"></i>
+                        <h4>Satisfaction Guarantae</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, reiciendis?
+                            amet consectetur adipisicing elit. Fuga, reiciendis
+                        </p>
+                    </div>
+                    <div>
+                        <i style="font-size: 3vw; margin-bottom: 10px;" class="fa-solid fa-gift" style="color: #000000;"></i>
+                        <h4>New Arrival Everyday</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, reiciendis?
+                            amet consectetur adipisicing elit. Fuga, reiciendis
+                        </p>
+                    </div>
+                    <div>
+                        <i style="font-size: 3vw; margin-bottom: 10px;" class="fa-solid fa-truck-fast" style="color: #000000;"></i>
+                        <h4>Fast & Free Shipping</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, reiciendis?
+                            amet consectetur adipisicing elit. Fuga, reiciendis
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--NEW ARRIVAL-->
+        <div class="initial-scroll">
+            <h1 id="new-arrival" style="margin-top: 5vw;">New Arrivals</h1>
+
+        <div class="new-arrival">
+            <div class="new-arrival-container">
+                <img style="width: 20vw;" src="./Img/NA1.png" alt="T-shirt image">
+                <div class="overlay"></div>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="new-arrival-container">
+                <img style="width: 20vw;" src="./Img/NA2.png" alt="T-shirt image">
+                <div class="overlay"></div>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="new-arrival-container">
+                <img style="width: 20vw;" src="./Img/NA3.png" alt="T-shirt image">
+                <div class="overlay"></div>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="new-arrival-container">
+                <img style="width: 20vw;" src="./Img/NA4.png" alt="T-shirt image">
+                <div class="overlay"></div>
+                <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        </div>
+        
+    <!--BEST SELLER-->
+        <div class="initial-scroll">
+            <h1 id="best-seller" style="margin-top: 5vw;">Best Seller</h1>
+
+            <div class="best-seller">
+                <div class="best-seller-container">
+                    <img style="width: 20vw;" src="./Img/BS1.png" alt="best-seller-image">
+                    <p class="sale-overlay">sale</p>
+                    <img class="like-button" src="./Brand/blackheart.png" alt="heart-icon">
+                </div>
+                <div class="best-seller-container">
+                    <img style="width: 20vw;" src="./Img/BS2.png" alt="best-seller-image">
+                    <p class="sale-overlay">sale</p>
+                    <img class="like-button" src="./Brand/blackheart.png" alt="heart-icon">
+                </div>
+                <div class="best-seller-container">
+                    <img style="width: 20vw;" src="./Img/BS3.png" alt="best-seller-image">
+                    <p class="sale-overlay">sale</p>
+                    <img class="like-button" src="./Brand/blackheart.png" alt="heart-icon">
+                </div>
+                <div class="best-seller-container">
+                    <img style="width: 20vw;" src="./Img/BS4.png" alt="best-seller-image">
+                    <p class="sale-overlay">sale</p>
+                    <img class="like-button" src="./Brand/blackheart.png" alt="heart-icon">
+                </div>
+                <div class="best-seller-container">
+                    <img style="width: 20vw;" src="./Img/BS5.png" alt="best-seller-image">
+                    <p class="sale-overlay">sale</p>
+                    <img class="like-button" src="./Brand/blackheart.png" alt="heart-icon">
+                </div>
+                <div class="best-seller-container">
+                    <img style="width: 20vw;" src="./Img/BS6.png" alt="best-seller-image">
+                    <p class="sale-overlay">sale</p>
+                    <img class="like-button" src="./Brand/blackheart.png" alt="heart-icon">
+                </div>
+                <div class="best-seller-container">
+                    <img style="width: 20vw;" src="./Img/BS7.png" alt="best-seller-image">
+                    <p class="sale-overlay">sale</p>
+                    <img class="like-button" src="./Brand/blackheart.png" alt="heart-icon">
+                </div>
+                <div class="best-seller-container">
+                    <img style="width: 20vw;" src="./Img/BS8.png" alt="best-seller-image">
+                    <p class="sale-overlay">sale</p>
+                    <img class="like-button" src="./Brand/blackheart.png" alt="heart-icon">
+                </div>
+            </div>
+        </div>
+
+    <!--LIMITED OFFER-->
+        <div class="initial-scroll">
+            <div class="limited-offer">
+                <div class="limited-offer-img">
+                    <img src="./Img/offerimg.webp" alt="offer-img">
+                </div>
+                <div class="limited-offer-text">
+                    <h2>Limited Offer</h2>
+                    <h4>35% OFF on this for the first 30 customers</h4>
+                    <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+    <!--NEWS LETTER-->
+        <div class="news">
+            <h2>Join Our News Letter</h2>
+            <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+            <div style="margin-top: 10px;">
+                <input class="search" type="text">
+            </div>
+            <div>
+                <button>Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+    <!--FOOTER SECTION-->
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-box-1">
+                    <h2 class="brand-name">Nostra</h2>
+                    <p>The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those interest</p>
+                    <div class="footer-icon-container">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-title">@ 2023 Nostra.com</p>
+        </div>
+    </div>
+
+    <!--LINK JS-->
+    <script src="script.js"></script>
+  </body>
+</html>
